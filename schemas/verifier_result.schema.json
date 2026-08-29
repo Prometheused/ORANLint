@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ORANLint contextual verifier result",
+  "type": "object",
+  "required": ["id1", "id2", "text1", "text2", "gpt56_status"],
+  "properties": {
+    "id1": {"type": ["integer", "string"]},
+    "id2": {"type": ["integer", "string"]},
+    "text1": {"type": "string"},
+    "text2": {"type": "string"},
+    "verdict": {"type": "string", "enum": ["", "consistent", "inconsistent", "neutral"]},
+    "gpt56_verdict": {"type": "string", "enum": ["", "consistent", "inconsistent", "neutral"]},
+    "gpt56_status": {"type": "string"},
+    "gpt56_model": {"type": "string"},
+    "gpt56_reasoning_effort": {"type": "string"},
+    "gpt56_usage": {"type": "object"},
+    "gpt56_prompt_sha256": {"type": "string"}
+  },
+  "additionalProperties": true
+}

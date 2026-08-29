@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ORANLint NLI supervision pair",
+  "type": "object",
+  "required": ["id1", "id2", "text1", "text2", "label"],
+  "properties": {
+    "id1": {"type": ["integer", "string"]},
+    "id2": {"type": ["integer", "string"]},
+    "text1": {"type": "string", "minLength": 1},
+    "text2": {"type": "string", "minLength": 1},
+    "label": {
+      "type": "string",
+      "enum": ["consistent", "neutral", "inconsistent"]
+    },
+    "pdf_file": {"type": ["string", "null"]},
+    "synthetic_split": {"type": "string", "enum": ["train", "dev"]}
+  },
+  "additionalProperties": true
+}

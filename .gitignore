@@ -1,0 +1,41 @@
+# Copyright (c) 2026. Part of the artifact for “Not on the Same Page:
+# Uncovering Specification Inconsistencies in O-RAN Standards,” submitted to
+# USENIX Security 2027. Restricted evaluation material. See NOTICE.
+
+# Credentials and local environment files
+.env
+.env.*
+*.env
+*credential*
+*secret*
+
+# Python and tooling caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+
+# Input data and generated outputs
+data/raw/**
+data/processed/**
+data/generated/**
+models/**
+runs/**
+logs/**
+
+# Preserve the documented empty layout
+!data/
+!data/raw/
+!data/processed/
+!data/generated/
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/generated/.gitkeep
+!models/
+!models/.gitkeep
+!runs/
+!runs/.gitkeep
+!logs/
+!logs/.gitkeep

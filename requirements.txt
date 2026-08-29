@@ -1,0 +1,18 @@
+# Copyright (c) 2026. Part of the artifact for “Not on the Same Page:
+# Uncovering Specification Inconsistencies in O-RAN Standards,” submitted to
+# USENIX Security 2027. Restricted evaluation material. See NOTICE.
+
+torch==2.7.0
+transformers==4.52.4
+datasets==3.6.0
+accelerate==1.7.0
+peft==0.15.2
+bitsandbytes==0.46.0
+deepspeed==0.17.0
+sentence-transformers==5.1.0
+scikit-learn==1.6.1
+numpy==1.26.4
+PyMuPDF==1.26.0
+openai==2.17.0
+tqdm==4.67.1
+safetensors==0.5.3

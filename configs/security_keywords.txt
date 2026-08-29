@@ -1,0 +1,588 @@
+3GPP
+5G-AKA
+AAA
+access
+access and identity management
+access control
+access control mechanism
+active attack
+active content
+AdaptOver Attack
+Admission Control
+advanced persistent threat
+adversary
+AI/ML Hardening
+AIaaS
+air gap
+AKA (Authentication & Key Agreement)
+alert
+all source intelligence
+allowlist
+AMCIS
+analyze
+anomaly
+Anomaly Detection
+anonymizers
+anti-CSRF
+Antispoofing
+antispyware software
+antivirus software
+AP
+AppSec
+asset
+asymmetric cryptography
+ATE
+attack
+attack method
+attack mode
+attack path
+attack pattern
+attack signature
+attack surface
+Attack Surface
+attacker
+Audit Trail
+authenticate
+authentication
+authenticity
+authorization
+availability
+BaaS
+Backdoor
+Backdoored
+BCrypt
+behavior monitoring
+behaviour
+Biohacking
+Biosurveillance
+blackbox
+Blockchain
+blocklist
+blue Team
+bluejacking
+bluesnarfing
+Bootkits
+bot
+bot herder
+bot master
+botnet
+bruteforce
+bug
+build security in
+CaC
+CAE
+capability
+Catphish
+CBP
+CCP
+CEO
+certificate
+Certificate Authority
+Certificate Revocation
+CIA
+CIO
+CIoTSP
+cipher
+ciphertext
+CIS
+CISSE
+CISSP-ISSAP
+CISSP-ISSMP
+Clientside
+cloud computing
+CMaaS
+CMM
+CNAP
+CNCI
+CNO
+collect & operate
+collection operations
+compromise
+CompTIA
+computer forensics
+computer network defense
+computer network defense analysis
+computer network defense infrastructure support
+computer security incident
+confidentiality
+Confidentiality
+Configuration Hardening
+consequence
+continuity of operations plan
+Control-Plane Security
+COP
+CounterIntel
+crimeware
+critical infrastructure
+critical infrastructure and key resources
+Crowdsourced
+cryptanalysis
+Crypto-Siphoning
+cryptocurrrency
+cryptographic algorithm
+Cryptographic Protection
+cryptography
+Cryptojacking
+cryptology
+cryptomalware
+Cryptominers
+CS
+CSEC
+CSSIA
+customer service and technical support
+CWI
+cyber ecosystem
+cyber exercise
+cyber incident
+cyber incident response plan
+cyber infrastructure
+cyber operations
+cyber operations planning
+cyber threat intelligence (CTI)
+Cyber-biosecurity
+Cyberattack
+cyberespionage
+Cybersecuring
+cybersecurity
+Cybersecurity adjacent
+cybersecurity-aware
+cyberthreats
+cyberwarfare
+CyberWarrior
+data administration
+data aggregation
+data breach
+data integrity
+data leakage
+data loss
+data loss prevention
+data mining
+data spill
+data theft
+Datagram TLS (DTLS)
+DataOps
+DBaaS
+DDoS
+de-perimeterization
+deauthentication
+decipher
+decode
+decrypt
+decryption
+Decryptor
+deepfake
+DEF CON
+defense
+denial of service
+Denial of Service
+designed-in security
+DevOps
+DevSecOps
+DHS
+digital forensics
+digital rights management
+digital signature
+Disaggregated Architecture Risk
+Disinformationists
+disruption
+disruptionware
+distributed denial of service
+Distros
+DNSTwist
+DoD
+DoED
+Dorking
+DoS
+Downgrade Attack
+DPIA
+dynamic attack surface
+EAP-AKA
+eavesdropping
+Eavesdropping
+EBK
+eCrime
+education and training
+EHRI
+electronic signature
+encipher
+encode
+encrypt
+encryption
+ENISA
+enterprise risk management
+EoL
+event
+exfiltration
+exploit
+exploitation analysis
+exposure
+FaaS
+failure
+FAQ
+FedRAMP-compliant
+FedVTE
+FedVTE Live!
+FEMA
+firewall
+FISMA
+FISSEA
+FLETC
+FOIA
+Footprinting
+forensics
+Fuzzer
+GAO
+Geofencing
+GeoIP
+georedundancy
+GFIRST
+hackathon
+hacker
+Handover Authentication
+hardening
+hash value
+hashing
+hazard
+HC
+HCAAF
+HICSS
+Honeynetting
+Honeyport
+Honeypot
+Honeytokens
+HQ
+HR
+HSM
+HTML
+I-Corps
+IA
+IaC
+IC
+ICC
+ICE
+ICEC
+ICT
+ict supply chain threat
+IDaaS
+identity
+identity and access management
+Identity Provisioning
+IDP
+IDPS
+IEEE
+IEEE 802.1X
+IIoT
+impact
+impersonization
+IMSI Catcher
+incident
+incident management
+incident response
+incident response plan
+indicator
+industrial control system
+information and communication(s) technology
+information assurance
+information assurance compliance
+information security policy
+information sharing
+information system resilience
+information systems security operations
+information technology
+InfoSec
+inside( r) threat
+integrated risk management
+integrity
+Integrity
+intent
+Interface Authentication
+Interface Authorization
+Interface Protection
+Interface Rate Limiting
+interoperability
+intrusion
+intrusion detection
+Intrusion Detection
+Intrusion Prevention
+investigate
+investigation
+IoA
+IoAs
+IoC
+IPsec
+IPSec
+ISC²
+IT
+it asset
+itSM
+ITWAC
+Jamming
+Key Agreement
+key management
+Key Management
+keylogger
+Keystores
+knowledge management
+KSA
+LaaS
+LangSec
+Least Privilege
+legal advice and advocacy
+machine learning and evolution
+macro virus
+malicious applet
+malicious code
+malicious logic
+Malvertising
+malware
+Message Injection
+Metaverse
+mitigation
+MitM
+moving target defense
+MS-ISAC
+Multi-vendor Risk
+mutual authentication
+Mutual Authentication
+Mutual Trust
+NAS
+NAS security
+NCCoE
+NCEC
+NCS
+NCSA
+NCSAM
+NCSD
+Network Access Control (NAC)
+network resilience
+network services
+Neuroergonomics
+Neuromorphic
+NewSQL
+NICCS
+NIST
+No FEAR
+non-repudiation
+Non-Repudiation
+noob
+NPPD
+NRD
+NSA
+NSF
+NVD
+OAuth
+object
+ODNI
+OffSec
+Open Fronthaul Security
+OpenIOC
+operate & maintain
+operational exercise
+operations technology
+OPM
+outside( r) threat
+Over-the-Air Attack
+Overfitting
+oversight & development
+PaaS
+passive attack
+password
+passwordless
+PCAST
+pen test
+penetration
+penetration testing
+Pentester
+personal identifying information / personally identifiable information
+PhaaS
+phishing
+PII
+PIV
+PKI
+plaintext
+Port-Based Access Control
+precursor
+preparedness
+privacy
+Privacy Preservation
+private key
+protect & defend
+protection
+provisioning
+Proxyjacking
+PTaaS
+public key
+public key cryptography
+public key encryption
+public key infrastructure
+QnA
+RADIUS
+ransomware
+rApp Security
+Rate Limiting
+recovery
+red team
+red team exercise
+redundancy
+Remediation Analysis
+Remoting
+replay attack
+Replay Prevention
+Replay Protection
+Repojacking
+resilience
+response
+response plan
+risk
+risk analysis
+risk assessment
+risk management
+risk mitigation
+risk-based data management
+Rogue Base Station
+Role-Based Access Control (RBAC)
+rootkit
+RTOS
+SA
+SA&A
+SA3
+SAC
+safety
+SANS
+scareware
+Scareware
+SECaaS
+SecDevOps
+SecOps
+secret key
+secure
+secure boot
+Secure Boot
+secure channel
+secure element
+Secure Interface
+Secure Logging
+Secure Peering
+Secure Software Update
+Secure Telemetry
+securely provision
+security
+security automation
+security incident
+security policy
+security program management
+Security Test / Verification
+SFS
+Side-channel Attack
+SIEM
+Signaling Storm
+signature
+signing
+SIGSE
+SIM-based authentication
+situational awareness
+SlowLoris
+SME
+smishing
+SO/DEV
+SoC
+Social Engineering
+SoD
+software assurance
+software assurance and security engineering
+Software Bill of Materials (SBOM)
+spam
+Spidering
+spillage
+spoofing
+spyware
+SRD
+SSH
+STaaS
+STEM
+strategic planning and policy development
+subject
+SUCI
+supervisory control and data acquisition
+SUPI
+supply chain
+Supply Chain Attack
+supply chain risk management
+Supply Chain Security
+switchport
+Symlink
+symmetric cryptography
+symmetric encryption algorithm
+symmetric key
+SysOp
+system administration
+system integrity
+systems development
+systems requirements planning
+systems security analysis
+systems security architecture
+tabletop exercise
+tailored trustworthy space
+tampering
+targets
+TCB
+technology research and development
+test and evaluation
+threat
+threat actor
+threat agent
+threat analysis
+threat assessment
+Threat Modeling
+threatscape
+Threatware
+ticket
+Timestomping
+TLS
+TMI
+Traffic Hijacking
+Traffic Isolation
+traffic light protocol
+Transport Layer Security
+TRB
+Trojan
+trojan horse
+Trojaning
+Trojanize
+trust
+Trust Anchor
+trusted computing base
+Trusted Execution Environment
+TSA
+Typosquatting
+unauthorized access
+UpSkill
+URL
+US CERT
+USCG
+USDA
+User-Plane Security
+USSS
+Verifiable Implementation
+verification
+verifying
+Virtualization
+virus
+vishing
+VTI
+VTM
+vulnerability
+vulnerability assessment and management
+wardriving
+Wargaming
+weakness
+Weaponization
+Weaponize
+white team
+whitebox
+WiCyS
+work factor
+worm
+XaaS
+xApp Security
+Zero Trust

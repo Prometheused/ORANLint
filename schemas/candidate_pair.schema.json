@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ORANLint candidate pair",
+  "type": "object",
+  "required": [
+    "id1",
+    "id2",
+    "text1",
+    "text2",
+    "tfidf_cos",
+    "bge_cos",
+    "id1_cluster_id",
+    "id2_cluster_id",
+    "candidate_source"
+  ],
+  "properties": {
+    "id1": {"type": ["integer", "string"]},
+    "id2": {"type": ["integer", "string"]},
+    "text1": {"type": "string", "minLength": 1},
+    "text2": {"type": "string", "minLength": 1},
+    "tfidf_cos": {"type": "number"},
+    "bge_cos": {"type": "number"},
+    "cluster_id": {"type": ["integer", "null"]},
+    "id1_cluster_id": {"type": "integer"},
+    "id2_cluster_id": {"type": "integer"},
+    "candidate_source": {
+      "type": "string",
+      "enum": ["same_cluster", "cross_cluster_tfidf_topk"]
+    },
+    "id1_pdf_file": {"type": ["string", "null"]},
+    "id2_pdf_file": {"type": ["string", "null"]},
+    "id1_section_number": {"type": ["string", "number", "null"]},
+    "id2_section_number": {"type": ["string", "number", "null"]},
+    "id1_section_title": {"type": ["string", "null"]},
+    "id2_section_title": {"type": ["string", "null"]},
+    "id1_page_number": {"type": ["integer", "number", "null"]},
+    "id2_page_number": {"type": ["integer", "number", "null"]}
+  },
+  "additionalProperties": true
+}

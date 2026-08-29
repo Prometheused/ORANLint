@@ -1,0 +1,25 @@
+{"inconsistent":{
+    "weak":{
+        "text": "REQ-CNFR-FUN-1: The Cloudified NF Registration MnS Producer shall support the capability to send a o1NotifyCloudNFRegistration notification to the Cloudified NF Registration MnS Consumer when it has completed instantiation and application initialization and is ready for final configuration and to be managed by the Cloudified NF Registration MnS Consumer.", "output": "The Cloudified NF Registration MnS Producer shall not require the capability to send a o1NotifyCloudNFRegistration notification to the Cloudified NF Registration MnS Consumer until it has failed instantiation and application de-initialization.","comment": "Shallow or trivial contradiction"}
+,"moderate":{
+    "text": "The DU must maintain uplink time synchronization within ±130 ns of the RU.", "output": "The required DU-RU uplink time alignment tolerance is ±65 ns.","comment": "moderate contradiction"}
+,"strong":{
+    "text": "NSSMS_P provides feasibility check results to NSSMS_C. If provisioning of O- NSSI is feasible, the information about reserved resources may also be provided.", "output": "NSSMS_P delivers feasibility assessment outcomes to NSSMS_C; however, NSSMS_P is not obligated to provide resource reservation details for successful O-NSSI provisioning scenarios.","comment": "Strong and intricate contradiction"}
+}
+,"paraphrased":{
+"weak":{
+    "text": "The O-DU#1 and O-DU#2 have obtained end to end IP connectivity with SMO. The O-DUs shall support either IPv4 or IPv6.", "output": "O-DU#1 and O-DU#2 shall establish end-to-end IP connectivity with the Service Management and Orchestration (SMO) node using either Internet Protocol Version 4 (IPv4) or Internet Protocol Version 6 (IPv6).","comment": "Shallow or trivial paraphrase"},
+"moderate": {
+    "text": "The Open Fronthaul interface shall use IEEE 1588v2 or SyncE for time synchronization between DU and RU.", "output": "The DU shall support frame alignment with the RU according to IEEE 1588v2 (PTP) or Synchronous Ethernet (SyncE).", "comment": "Paraphrase with few words changed"}
+,"strong": {
+    "text": "The test topology above illustrates the placement of clock tester at the measurement plane with 1PPS and 10MHz reference from GNSS simulator connected to clock tester. The tester measurement ports at O-RU UNI connected to CSR.", "output": "A clock tester shall be placed within the measurement plane, receiving a 1PPS signal and a 10 MHz reference from a Global Navigation Satellite System (GNSS) simulator. These signals shall be connected to a tester measurement port located at the O-RU User Network Interface (UNI), which is connected to a Common Sync Repository (CSR).", "comment": "Detailed and rich semantic paraphrase"}
+}
+,"randomized": {
+    "weak": {
+    "text": "The IMS will include the PM Job ID and consumer subscription ID for the PM Job in the response and notification of the PM Job(s) deleted.", "output":"The IMS will include the Service Model Instance ID and subscriber profile ID for the service model instance in the response and notification of the service model instances updated.", "comment": "Shallow or trivial randomization"}
+,"moderate": {
+    "text": "REQ-CNFR-FUN-1: The Cloudified NF Registration MnS Producer shall support the capability to send a o1NotifyCloudNFRegistration notification to the Cloudified NF Registration MnS Consumer when it has completed instantiation and application initialization and is ready for final configuration and to be managed by the Cloudified NF Registration MnS Consumer.", "output": "REQ-CNFR-FUN-1: The Cloudified NF Registration MnS Producer shall support the capability to send a cloud-initiation-complete notification to the Cloudified NF Registration MnS Consumer when it has completed instantiation and bootstrap and is ready for service configuration and to be managed by the Cloudified NF Registration MnS Consumer.", "comment": "moderate randomization"}
+,"strong":{
+    "text": "transceiver memory at two-wire interface address 0xA2. The retrieved data is stored in the file without any conversion in binary format.", "output": "transmitter control registers at two-wire interface address 0xF1. The interface data is stored in the file without any conversion in hexadecimal format.", "comment": "Strong randomization where lots of contradictions make them completely unrelated."}
+}
+}
